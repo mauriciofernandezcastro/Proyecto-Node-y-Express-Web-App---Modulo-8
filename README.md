@@ -14,6 +14,16 @@ GET /api/perfil - ruta protegida, necesita token
 GET /api/usuarios - ruta protegida
 POST /api/upload - subida de imagen
 
+.env
+
+PORT=3000
+DB_NAME=mi_db
+DB_USER=postgres
+DB_PASS=tu_password
+DB_HOST=localhost
+SECRET_JWT=mi_clave_super_secreta_123
+
+
 Como autenticarse:
 1. Hacer POST a /api/auth/login con email y password
 2. Copiar el token que devuelve
