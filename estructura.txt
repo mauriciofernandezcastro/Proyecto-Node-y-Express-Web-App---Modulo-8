@@ -1,1 +1,12 @@
-
+mi-proyecto-backend/
+- src/
+    - controllers/  (usuarios.controller.js, productos.controller.js)
+    - routes/       (usuarios.routes.js, productos.routes.js, auth.routes.js)
+    - middlewares/  (verificarToken.js, upload.js)
+    - models/       (usuario.js, producto.js)
+    - services/
+    - uploads/      (carpeta donde se guardan las imagenes)
+- app.js o index.js
+- .env
+- package.json
+- README.md
